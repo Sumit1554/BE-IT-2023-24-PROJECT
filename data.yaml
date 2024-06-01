@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/YOLOv5_dataset/train
+val: /content/drive/MyDrive/YOLOv5_dataset/valid
+
+nc: 1  # number of classes
+names: ['Tree']  # class names

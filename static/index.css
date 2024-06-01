@@ -1,0 +1,92 @@
+@import "reset.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "sidebar"
+        "footer";
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    background-color: oldlace;
+}
+
+header {
+    grid-area: header;
+    background-color: #333;
+    color: white;
+    margin-top: 55px;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;                                        
+}
+.centrediv {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a1 {
+  height: 55px;
+  width: 55px;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 3px;
+  box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+
+a i {
+  transition: all 0.3s linear;
+  padding-top: 10px;
+}
+.a1:hover i {
+  transform: scale(1.4);
+}
+
+.fa-instagram {
+  color: #e84393;
+}
+.fa-linkedin {
+  color: #0097e6;
+}
+.fa-twitter {
+  color: #0097e6;
+}
+
+footer {
+  height: 240px;
+}
+#fp {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#tbl {
+  margin-left: 5%;
+  display: flex;
+}
+
+tr {
+  padding: 20px;
+}
+
+#vdo {
+  display: flex;
+}
+#brand {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
